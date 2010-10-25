@@ -11,4 +11,7 @@ class PagesController < ApplicationController
   	@title = "About"
   end
   
+  def helper
+  	@title = "Helper"
+  end
 end
